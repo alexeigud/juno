@@ -1,141 +1,194 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <meta name="author" content="Alexei Goudzenko">
+        <!--meta description-->
         <meta charset="utf-8">
         <title>Juno College</title>
-        <!--css-->
-    </head>
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <body>
-        <nav class="zone white">
-            <header><a href="index.html"><img src="images/juno-logo.png" alt="Juno Logo"></header></a>
-            <ul class="main-nav">
-                <li><a href="">Courses</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Alumni</a></li>
-                <li><a href="">Blog</a></li>
-            </ul>
-        </nav>
 
-        <main>
-           <article>
-                    <h1>Tech Challenge</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea similique, inventor
-                        e nesciunt dolorum incidunt quasi odio aperiam itaque in explicabo sequi optio 
-                        autem voluptatibus praesentium error sint fugit?
-                    </p>
-            </article>
-
-            <section>
-                <header>><h2>Blog</h2></header>
-                <article>
-                    <date>2019-03-09</date>
-                    <h3>Juno Tech Test</h3>
-                    <p>Lorem ipsum dolor sit amet 
-                        consectetur adipisicing elit. 
-                        Excepturi impedit dolores quo.
-                    </p>
-                    <button>Read More</button>
-                </article>
-
-                <article>
-                    <date>2019-03-15</date>
-                    <h3>Juno Tech Test</h3>
-                    <p>Lorem ipsum dolor sit amet 
-                        consectetur adipisicing elit. 
-                        Excepturi impedit dolores quo.
-                    </p>
-                    <button>Read More</button>    
-                </article>
-
-                <article>
-                    <h3>About us</h3>
-                    <p>Lorem ipsum dolor sit amet 
-                        consectetur adipisicing elit. 
-                        Atque porro culpa nihil. 
-                        Magnam eos sapiente, nesciunt 
-                        eveniet itaque deserunt nam? 
-                        Explicabo illum omnis quis 
-                        obcaecati beatae ratione non 
-                        architecto. Saepe?
-                    </p>    
-                </article>
-
-                <article>
-                    <date>2019-04-30</date>
-                    <h3>Juno Tech Test</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem veniam quas 
-                        magni voluptates, reiciendis consequuntur! Neque quisquam aperiam unde! Earum 
-                        totam unde repellendus excepturi repellat maxime mollitia quaerat ea tempore?
-                    </p>
-                    <button>Read More</button>    
-                </article>
-
-            </section>
-
-            <section>
-                <header><h2>Related post:</h2></header>
-                <article>
-                    <date>2019-03-09</date>
-                    <h3>Juno Tech Test</h3>
-                    <p>Lorem ipsum dolor sit, amet 
-                         consectetur adipisicing elit. 
-                        Quidem veniam quas magni.
-                     </p>
-                    <button>Read More</button> 
-                </article>
-
-                <article>
-                    <date>2019-03-15</date>
-                    <h3>Juno Tech Test</h3>
-                    <p>Lorem ipsum dolor sit, amet 
-                         consectetur adipisicing elit. 
-                        Quidem veniam quas magni.
-                     </p>
-                    <button>Read More</button> 
-                </article>
-
-                <article>
-                    <date>2019-03-15</date>
-                    <h3>Juno Tech Test</h3>
-                    <p>Lorem ipsum dolor sit, amet 
-                         consectetur adipisicing elit. 
-                        Quidem veniam quas magni.
-                     </p>
-                    <button>Read More</button> 
-                </article>
-
-            </section>
-        </main>
-        
-        <footer class="zone orange">
-            <img src="images/Juno-logo-white.png" alt="Juno Logo White">
-            <header><h2>Juno Tech Test</h2></header>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiore
-                s dignissimos aspernatur, eaque vitae perspiciatis odio! Porro,</p>
-                <ul class="footer-nav">
-                    <li><a href="index.html">Home</a></li>
+        <nav class="zone">
+            <div class="nav-flex-wrapper">
+                <header><a href="index.html"><img src="images/juno-logo.png" alt="Juno College of Techonology"></a></header>
+                <ul class="main-nav">
                     <li><a href="">Courses</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Alumni</a></li>
                     <li><a href="">Blog</a></li>
                 </ul>
-                <p>C 2012-2019 Juno College of Technology</p>
-                <h3>Join our mailing list</h3>
-                <form>
-                    <ul>
-                        <li>
-                            <input type="email" id="mail" name="user_mail" value="Your email address">
-                        </li>
-                        <li class="button2">
-                            <button type="submit">Subscribe</button>
-                        </li>
-                    </ul>
-                </form>
-                <p>
-                    Lorem ipsum dolor sit amet, 
-                    consectetur adipisicing elit. 
-                </p>
+            </div>
+        </nav>
+
+        <main>
+           <article class="container">
+                    <img class="cover" src="images/image-1.jpg" alt="classroom">
+                    <div class="text-block">
+                        <h1>Tech Challenge</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea similique, inventor
+                            e nesciunt dolorum incidunt quasi odio aperiam itaque in explicabo sequi optio 
+                            autem voluptatibus praesentium error sint fugit?
+                        </p>
+                    </div>
+            </article>
+
+            <section>
+                <h2>Blog</h2>
+                <div class="blog-container">
+                    <article class="dark">
+                        <img class="yellow-image" src="images/image-2.jpg" alt="3 People">
+                        <div class="text-inside-black-box">
+                            <date>2019-03-09</date>
+                            <h3>Juno Tech Test</h3>
+                            <p>Lorem ipsum dolor sit amet 
+                                consectetur adipisicing elit. 
+                                Excepturi impedit dolores quo.
+                            </p>
+                            <a class="red-button" href="">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="dark">
+                        <img class="yellow-image" src="images/image-3.jpg" alt="Teacher and Student">
+                        <div class="text-inside-black-box">
+                            <date>2019-03-15</date>
+                            <h3>Juno Tech Test</h3>
+                            <p>Lorem ipsum dolor sit amet 
+                                consectetur adipisicing elit. 
+                                Excepturi impedit dolores quo.
+                            </p>
+                            <a class="red-button" href="">Read More</a>
+                        </div>   
+                    </article>
+
+                    <article class="grey column-long">
+                        <img class="yellow-image" src="images/image-4.jpg" alt="Dude">
+                        <div class="text-inside-black-box">
+                            <h3>About us</h3>
+                            <p>Lorem ipsum dolor sit amet 
+                                consectetur adipisicing elit. 
+                                Atque porro culpa nihil. 
+                                Magnam eos sapiente, nesciunt 
+                                eveniet itaque deserunt nam? 
+                                Explicabo illum omnis quis 
+                                obcaecati beatae ratione non 
+                                architecto. Saepe?
+                            </p>
+                        </div>        
+                    </article>
+
+                    <article class="dark third" >
+                        <img class="yellow-image" src="images/image-5.jpg" alt="2 Students">
+                        <div class="text-inside-black-box">
+                            <date>2019-04-30</date>
+                            <h3>Juno Tech Test</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem veniam quas 
+                                magni voluptates, reiciendis consequuntur! Neque quisquam aperiam unde! Earum 
+                                totam unde repellendus excepturi repellat maxime mollitia quaerat ea tempore?
+                            </p>
+                            <a class="red-button" href="">Read More</a>
+                        </div>   
+                    </article>
+                </div>
+            </section>
+
+            <section class="yellow-container">
+                <h2 class=title-two>Related post:</h2>
+                <div class="flex-wrapper">
+                    <article class="blog-post-yellow one">
+                        <img class="yellow-image" src="images/image-2.jpg" alt="3 People">
+                        <div class="white-box">
+                            <div class="text-inside-white-box">
+                                <date>2019-03-09</date>
+                                <h3 class="related-post-head">Juno Tech Test</h3>
+                                <p>Lorem ipsum dolor sit, amet 
+                                    consectetur adipisicing elit. 
+                                    Quidem veniam quas magni.
+                                </p>
+                                <a class="related-post-link" href="">Read More</a>
+                            </div>   
+                        </div>
+                    </article>
+
+                    <article class="blog-post-yellow two">
+                        <img class="yellow-image" src="images/image-3.jpg" alt="Teacher and Student">
+                        <div class="white-box">
+                            <div class="text-inside-white-box">
+                                <date>2019-03-15</date>
+                                <h3 class="related-post-head">Juno Tech Test</h3>
+                                <p>Lorem ipsum dolor sit, amet 
+                                    consectetur adipisicing elit. 
+                                    Quidem veniam quas magni.
+                                </p>
+                                <a class="related-post-link" href="">Read More</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="blog-post-yellow three">
+                        <img class="yellow-image" src="images/image-3.jpg" alt="Teacher and Student">
+                        <div class="white-box">
+                            <div class="text-inside-white-box">
+                                <date>2019-03-15</date>
+                                <h3 class="related-post-head">Juno Tech Test</h3>
+                                <p>Lorem ipsum dolor sit, amet 
+                                    consectetur adipisicing elit. 
+                                    Quidem veniam quas magni.
+                                </p>
+                                <a class="related-post-link" href="">Read More</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <div class="footer-section footer-one">
+                <img src="images/Juno-logo-white.png" alt="Juno College of Technology">
+                <div class="flex-wrapper">
+                    <div class="footer-column-wrapper">
+                        <h2>Juno Tech Test</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiore
+                            s dignissimos aspernatur, eaque vitae perspiciatis odio! Porro,
+                        </p>
+                        <nav>
+                            <ul class="footer-nav">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="">Courses</a></li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Alumni</a></li>
+                                <li><a href="">Blog</a></li>
+                            </ul>
+                            <p>C 2012-2019 Juno College of Technology</p>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-column-wrapper">
+                <div class="flex-wrapper">
+                    <div class="footer-section footer-two">
+                        <p>
+                            <h4>Join our mailing list</h4>
+                            <ul>
+                                <li>
+                                    <input type="email" id="mail" name="user_mail" placeholder="Your email address">
+                                </li>
+                                <li class="button">
+                                    <button type="submit">Subscribe</button>
+                                </li>
+                            </ul>
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. 
+                        </p>
+                    </div>
+                </div>
+            </div>
         </footer>
     </body>
 </html>
